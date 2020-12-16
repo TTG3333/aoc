@@ -4,3 +4,4 @@
 ### 2020
 - Day 1 - both challenges
 - Day 2 - both challenges
+- Day 3 - both challenges
