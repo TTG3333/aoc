@@ -4,8 +4,9 @@ F.close()
 
 for x in numbers:
     xNum = int(x)
-    num = 2020 - xNum
     for y in numbers:
         yNum = int(y)
-        if num == yNum:
-            print(yNum*xNum)
+        for z in numbers:
+            zNum = int(z)
+            if xNum + yNum + zNum == 2020:
+                print(xNum*yNum*zNum)
