@@ -1,5 +1,5 @@
 with open("Input.txt", "tr") as F:
-    numbers = F.read().split("\n")
+    numbers = F.read().splitlines()
 for x in numbers:
     xNum = int(x)
     for y in numbers:

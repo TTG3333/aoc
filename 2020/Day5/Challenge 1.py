@@ -1,5 +1,5 @@
 with open("Input.txt", "tr") as F:
-    lines = F.read().split("\n")
+    lines = F.read().splitlines()
 highest_id = 0
 for x in lines:
     row = [0, 127]

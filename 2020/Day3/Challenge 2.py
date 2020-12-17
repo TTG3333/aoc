@@ -12,7 +12,7 @@ def count_trees(values, xIncrement, yIncrement):
     return trees
 
 with open("Input.txt", "tr") as F:
-    lines = F.read().split("\n")
+    lines = F.read().splitlines()
 checks = [
     {
         "x": 1,
