@@ -7,3 +7,4 @@
 - Day 3 - both challenges
 - Day 4 - both challenges
 - Day 5 - both challenges
+- Day 6 - both challenges
