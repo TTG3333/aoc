@@ -59,38 +59,37 @@ def check_passport(passport):
 
 with open("Input.txt", "tr") as F:
     lines = F.read().split("\n")
-    refined_passports = []
-    passport_text = ""
-    for y, x in enumerate(lines):
-        if y == len(lines)-1:
-            refined_passports.append(x)
+refined_passports = []
+passport_text = ""
+for y, x in enumerate(lines):
+    if y == len(lines)-1:
+        refined_passports.append(x)
+    else:
+        if x == "":
+            refined_passports.append(passport_text[:-1])
+            passport_text = ""
         else:
-            if x == "":
-                refined_passports.append(passport_text[:-1])
-                passport_text = ""
-            else:
-                passport_text += (x + " ")
-    
-    strs_to_check = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
-    correct_passports = []
-    for x in refined_passports:
-        for y in strs_to_check:
-            if x.count(y) != 1:
-                break
-        else:
-            correct_passports.append(x)
-    
-    formated_passports = []
-    for x in correct_passports:
-        to_append = {}
-        for y in x.split(" "):
-            to_append[y.split(":")[0]] = y.split(":")[1]
-        formated_passports.append(to_append)
+            passport_text += (x + " ")
 
-    valid_passports = 0
-    for x in formated_passports:
-        if check_passport(x):
-            valid_passports += 1
+strs_to_check = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"]
+correct_passports = []
+for x in refined_passports:
+    for y in strs_to_check:
+        if x.count(y) != 1:
+            break
+    else:
+        correct_passports.append(x)
 
-    print(valid_passports)
-    F.close()
+formated_passports = []
+for x in correct_passports:
+    to_append = {}
+    for y in x.split(" "):
+        to_append[y.split(":")[0]] = y.split(":")[1]
+    formated_passports.append(to_append)
+
+valid_passports = 0
+for x in formated_passports:
+    if check_passport(x):
+        valid_passports += 1
+
+print(valid_passports)
