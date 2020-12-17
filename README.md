@@ -1,6 +1,6 @@
 # Advent of Code Repository
 
-## Code so far:
+## Challenges answered in this repository:
 ### 2020
 - Day 1 - both challenges
 - Day 2 - both challenges
