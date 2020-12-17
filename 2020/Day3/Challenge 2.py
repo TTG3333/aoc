@@ -13,32 +13,30 @@ def count_trees(values, xIncrement, yIncrement):
 
 with open("Input.txt", "tr") as F:
     lines = F.read().split("\n")
-    checks = [
-        {
-            "x": 1,
-            "y": 1
-        },
-        {
-            "x": 3,
-            "y": 1
-        },
-        {
-            "x": 5,
-            "y": 1
-        },
-        {
-            "x": 7,
-            "y": 1
-        },
-        {
-            "x": 1,
-            "y": 2
-        }
-    ]
+checks = [
+    {
+        "x": 1,
+        "y": 1
+    },
+    {
+        "x": 3,
+        "y": 1
+    },
+    {
+        "x": 5,
+        "y": 1
+    },
+    {
+        "x": 7,
+        "y": 1
+    },
+    {
+        "x": 1,
+        "y": 2
+    }
+]
 
-    total = 1
-    for x in checks:
-        total *= count_trees(lines, x["x"], x["y"])
-
-    print(total)
-    F.close()
+total = 1
+for x in checks:
+    total *= count_trees(lines, x["x"], x["y"])
+print(total)
