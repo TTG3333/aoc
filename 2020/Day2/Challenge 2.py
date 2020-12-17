@@ -1,5 +1,5 @@
 with open("Input.txt", "tr") as F:
-    passwords = F.read().split("\n")
+    passwords = F.read().splitlines()
 pwd = []
 for y, x in enumerate(passwords):
     pwd.append(x.split(" "))

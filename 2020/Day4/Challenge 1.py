@@ -1,5 +1,5 @@
 with open("Input.txt", "tr") as F:
-    lines = F.read().split("\n")
+    lines = F.read().splitlines()
 refined_passports = []
 passport_text = ""
 for y, x in enumerate(lines):
