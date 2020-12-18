@@ -8,3 +8,10 @@ for x in numbers:
             zNum = int(z)
             if xNum + yNum + zNum == 2020:
                 print(xNum*yNum*zNum)
+                break
+        else:
+            continue
+        break
+    else:
+        continue
+    break

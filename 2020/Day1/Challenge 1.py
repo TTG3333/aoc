@@ -7,3 +7,7 @@ for x in numbers:
         yNum = int(y)
         if num == yNum:
             print(yNum*xNum)
+            break
+    else:
+        continue
+    break
