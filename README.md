@@ -8,3 +8,4 @@
 - Day 4 - both challenges
 - Day 5 - both challenges
 - Day 6 - both challenges
+- Day 7 - first challenge
