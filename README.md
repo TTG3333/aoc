@@ -2,10 +2,10 @@
 
 ## 2020
 
-- Day 1 - both challenges
-- Day 2 - both challenges
-- Day 3 - both challenges
-- Day 4 - both challenges
-- Day 5 - both challenges
-- Day 6 - both challenges
-- Day 7 - both challenges
+- Day 1 - both parts
+- Day 2 - both parts
+- Day 3 - both parts
+- Day 4 - both parts
+- Day 5 - both parts
+- Day 6 - both parts
+- Day 7 - both parts
