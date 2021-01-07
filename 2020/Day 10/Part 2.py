@@ -13,7 +13,7 @@ fixed_adapters.append(fixed_adapters[0] + 3)
 adapter_data = {}
 for y, x in enumerate(fixed_adapters):
     arrangements = 0
-    if y == 0 or y == 1:
+    if y == 0:
         adapter_data[x] = 1
         continue
     for z in fixed_adapters[zeroCheck(y-3):y]:
