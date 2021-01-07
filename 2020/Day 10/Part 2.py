@@ -9,10 +9,11 @@ fixed_adapters = [0]
 for y, x in enumerate(adapters):
     fixed_adapters.append(int(x))
 fixed_adapters.sort(reverse=True)
+fixed_adapters.append(fixed_adapters[0] + 3)
 adapter_data = {}
 for y, x in enumerate(fixed_adapters):
     arrangements = 0
-    if y == 0:
+    if y == 0 or y == 1:
         adapter_data[x] = 1
         continue
     for z in fixed_adapters[zeroCheck(y-3):y]:
