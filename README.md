@@ -16,6 +16,7 @@
 - Day 12 - both parts
 - Day 13 - both parts
 - Day 14 - both parts
+- Day 15 - both parts
 
 ## 2021
 
