@@ -21,3 +21,4 @@
 ## 2021
 
 - Day 1 - both parts
+- Day 2 - both parts
