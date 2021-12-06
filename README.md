@@ -25,3 +25,4 @@
 - Day 3 - both parts
 - Day 4 - both parts
 - Day 5 - both parts
+- Day 6 - both parts
