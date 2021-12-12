@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 with open("Input.txt", "tr") as F:
     octopi = [[int(y) for y in x] for x in F.read().splitlines()]
 around = [[-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1], [-1, 0]]
