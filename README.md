@@ -38,3 +38,7 @@
 - Day 15 - both parts
 - Day 16 - both parts
 - Day 17 - both parts
+
+## 2022
+
+- Day 1 - both parts
