@@ -1,4 +1,4 @@
-# [Advent of Code](https://adventofcode.com "Advent of Code") Repository
+# [Advent of Code](https://adventofcode.com "Advent of Code") Solutions Repository
 
 ## 2020
 
