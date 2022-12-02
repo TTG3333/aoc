@@ -3,6 +3,7 @@
 ## 2015
 
 - Day 1 - both parts
+- Day 2 - both parts
 
 ## 2020
 
