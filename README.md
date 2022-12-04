@@ -6,6 +6,7 @@
 - Day 2 - both parts
 - Day 3 - both parts
 - Day 4 - both parts
+- Day 5 - both parts
 
 ## 2020
 
