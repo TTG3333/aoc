@@ -65,3 +65,4 @@
 - Day 7 - both parts
 - Day 8 - both parts
 - Day 9 - both parts
+- Day 10 - both parts
