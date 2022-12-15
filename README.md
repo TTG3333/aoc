@@ -15,6 +15,7 @@
 - Day 11 - both parts
 - Day 12 - both parts
 - Day 13 - both parts
+- Day 14 - both parts
 
 ## 2020
 
