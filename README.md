@@ -114,3 +114,4 @@
 - Day 4 - both parts
 - Day 5 - both parts
 - Day 6 - both parts
+- Day 7 - both parts
